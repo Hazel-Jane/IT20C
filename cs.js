@@ -1,0 +1,49 @@
+// function legalAge(age) {
+//           if(age >= 18){
+//                     console.log("You are an adult") 
+//           } else {
+//                     console.log("pananghid saimong mama");
+//           }
+// }
+// legalAge(50);
+       
+
+// function computerGrade(grade){
+//           if(grade >= 94.5){
+//                     console.log("1");
+//           } 
+//           else if (grade >= 91.5) {
+//                     console.log("1.25");
+//           } 
+//             else if (grade >= 89.5) {
+//                     console.log("1.50");
+//           }
+//            else if (grade >= 86.5) {
+//                     console.log("1.75");
+//           }
+//             else if (grade >= 84.5) {
+//                     console.log("2");
+//           }
+//           else {
+//                     console.log("Not within transmutation")
+//           }
+// }
+// computeGrade(85);
+// computeGrade(90);
+
+function login(username, password) {
+ if(username === "HJ") {
+
+  if (password === 1234) {
+  console.log("wELCOME DEAR!");
+ } else {
+  console.log("invalid login credentials")
+ } 
+} else {
+  console.log("invalid user");
+ }
+
+ }
+
+login("HJ", 1234);
+ 
