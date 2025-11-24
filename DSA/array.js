@@ -19,23 +19,23 @@ class Array {
           console.log(output);
          }
 
-// insert(index,data){
+insert(index,data){
  
-//            //correcting statement
-//            if(index < 0 || index > this.length){
-//                     console.log("Invalid Index");
-//                     return;
-//            }
+           //correcting statement
+           if(index < 0 || index > this.length){
+                    console.log("Invalid Index");
+                    return;
+           }
 
-//            // shifting condition
+           // shifting condition
 
-//            for(let i = this.length;i > index; i--){
-//                     this.data[i] = this.data[i-1]
-//            }
+           for(let i = this.length;i > index; i--){
+                    this.data[i] = this.data[i-1]
+           }
 
-//            this.data[index] = element;
-//            this.length++;
-// }
+           this.data[index] = element;
+           this.length++;
+}
 
 // search(element){
 //       for(let i=0; i < this.length; i++){
