@@ -47,13 +47,13 @@ search(element){
      return -1;
 }
 
-// update(index,element){
-//           // correcting statement
-//           if(index < 0 || index >= this.length){
-//                     conbsole.log("Invalid index");
-//           }
-//           this.data[index] = element;
-// }
+update(index,element){
+          // correcting statement
+          if(index < 0 || index >= this.length){
+                    conbsole.log("Invalid index");
+          }
+          this.data[index] = element;
+}
 
 // delete(index){
 // // correcting statement
