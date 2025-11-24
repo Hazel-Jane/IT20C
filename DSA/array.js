@@ -55,20 +55,20 @@ update(index,element){
           this.data[index] = element;
 }
 
-// delete(index){
-// // correcting statement
-//           if(index < 0 || index >= this.length){
-//                     console.log("Invalid Index");
-//                     return;
-//           }
-//          // shifting 
-//            for(let i = this.length;i > index; i++){
-//                     this.data[i] = this.data[i-1]
-//            }
+delete(index){
+// correcting statement
+          if(index < 0 || index >= this.length){
+                    console.log("Invalid Index");
+                    return;
+          }
+         // shifting 
+           for(let i = this.length;i > index; i++){
+                    this.data[i] = this.data[i-1]
+           }
 
-//           delete this.data[this.length-1]
-//            this.length--;
-// }
+          delete this.data[this.length-1]
+           this.length--;
+}
 }
 
 
