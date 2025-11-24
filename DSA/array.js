@@ -80,6 +80,6 @@ arr1= new Array([4,2,3]);
 arr1.traverse();
 arr1.insert(1,50);
 arr1.traverse();
-// arr1.delete(0);
+arr1.delete(0);
 arr1.traverse();
 
