@@ -1,4 +1,4 @@
-i = 1;
+// i = 1;
 
 // do {
 //           console.log(i);
