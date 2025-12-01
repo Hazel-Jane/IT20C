@@ -51,6 +51,16 @@ class LinkedList{
                     }
                     console.log("Target not found");
           }
+          search(element){
+                    let current = this.head;
+                    while(current){
+                              if(current.value === element)
+                                        // return current;
+                              return "Element found";
+                              current = current.next;
+                    }
+                    return "Element not found";
+          }
 }
 //
 let list = new LinkedList();
@@ -65,8 +75,15 @@ let list = new LinkedList();
 // console.log(list1.traverse());
 
 
+// list1.insert_end(4);
+// list1.insert_end(3);
+// list1.insert_end(5);
+// list1.insert_after(5,2);
+// console.log(list1.traverse());
+
 list1.insert_end(4);
 list1.insert_end(3);
-list1.insert_after(5);
+list1.insert_end(5);
 list1.insert_after(5,2);
 console.log(list1.traverse());
+console.log(list1.search(4));
